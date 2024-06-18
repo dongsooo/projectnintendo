@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.article1 {
+    background-color: #898989;
+
+}
+
+img {
+    vertical-align: top;
+}
+
+.article1 h3 {
+    color: white;
+    font-family: 'noto', sans-serif;
+    font-size: 2em;
+    padding: 10px 0 10px 10px;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.art1 {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.art1 li {
+    color: white;
+    line-height: 2.5em;
+    font-family: 'noto', sans-serif;
+    padding: 0 0 0 10px;
+    width: 300px;
+    margin: 0 auto;
+
+
+}
+
+.download {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%) scale(0.8);
+    top: 5px;
+    cursor: pointer;
+}
+
+.art2wrap {
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.art2 {
+    padding-top: 50px;
+    width: 500%;
+    overflow: hidden;
+    position: relative;
+}
+
+.art2 img {
+    max-width: 100%;
+    min-width: 676px;
+}
+
+
+.art2 li {
+    width: 20%;
+    float: left;
+
+}
+
+.btn {
+    width: 225px;
+    height: 25px;
+    margin: 25px auto;
+}
+
+.btn > li {
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    float: left;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.btn > li:last-child {
+    margin-right: 0;
+}
+
+li.check {
+    background-color: #fa9845;
+}
+
+.article1 h4 {
+    color: white;
+    font-family: 'noto', sans-serif;
+    font-size: 1.5em;
+    padding: 10px 0 10px 0px;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.article1 p{
+       color: white;
+    font-family: 'noto', sans-serif;
+    font-size: 1em;
+    padding: 10px 0 0 0px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.table{
+    padding-top: 60px;
+}
+
+.table strong{
+padding-right: 10px;
+}
+.table li{
+    color: white;
+    font-family: 'noto', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 10px 0 6px 0px;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+
+@media all and (min-width:767px) {
+
+    .art1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        max-width: 1000px;
+    }
+
+    .art1 li:nth-child(2n) {
+        text-align: end;
+    }
+
+    .article1 p{
+               color: white;
+    font-family: 'noto', sans-serif;
+    font-size: 1em;
+    padding: 10px 0 0px 0px;
+        width: 1200px;
+    }
+    
+    .article1 p{
+        text-align: center;
+        width: 1000px;
+    }
+
+
+}
+
+
